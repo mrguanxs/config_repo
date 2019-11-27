@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: boot-eureka-order
+    name: boo-eureka-order
 eureka:
   instance:
     prefer-ip-address: true     #优先ip调用
