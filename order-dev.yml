@@ -3,6 +3,15 @@ server:
 spring:
   application:
     name: boot-eureka-order
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/demo?characterEncoding=utf-8&useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update  
 eureka:
   instance:
     prefer-ip-address: true     #优先ip调用
